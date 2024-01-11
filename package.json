@@ -1,0 +1,17 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "\"to do list\"",
+  "main": "todo.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node todo.js",
+    "prepare": "husky install"
+  },
+  "author": "\"munni\"",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "jest": "^29.7.0"
+  }
+}
