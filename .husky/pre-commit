@@ -2,3 +2,11 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npm test
+npx lint-staged
+my own test
+my own test
+my own test
+my own test
+my own test
+my own test
+my own test

@@ -20,6 +20,7 @@ const todoList = () => {
     const dueToday = () => {
         return all.filter((item) => {
             const dueDate = new Date(item.dueDate);
+            console.log(dueDate)
             const currentDate = new Date();
             return !item.completed && dueDate.toISOString().split("T")[0] === currentDate.toISOString().split("T")[0];
         });
